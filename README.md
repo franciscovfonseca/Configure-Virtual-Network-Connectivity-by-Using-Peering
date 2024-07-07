@@ -1,5 +1,8 @@
+<br>
+
 <p align="center">
-<img width="600" src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5795419a-3012-4a57-b4b0-155c2dd93fc7" alt="Microsoft Active Directory Logo"/>
+<img width="500" src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5795419a-3012-4a57-b4b0-155c2dd93fc7" alt="Microsoft Active Directory Logo"/>
+<br>
 <br>
 <br>
 
@@ -230,7 +233,6 @@ If the peering connection does not appear on the Peerings page, on the command b
 <br>
 
 <h2>Summary</h2>
-<br>
 
 Congratulations, you have completed the **Configure Virtual Network Connectivity by using Peering** Lab.
 
