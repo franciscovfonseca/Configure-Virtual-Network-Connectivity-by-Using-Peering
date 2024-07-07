@@ -49,14 +49,67 @@ On the IP addresses page, in IPv4 address space, select **Delete address space**
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/c0524a5f-97cb-478a-bad8-b6fc9236fe7f" height="50%" width="50%" alt="9"/><br />
 <br>
 
-For IP address, enter 10.10.0.0, and confirm the subnet mask is **/16**.
+For IP address, enter ***10.10.0.0***, and confirm the subnet mask is **/16**.
 
 Select **Add a subnet** to open the Add subnet blade.
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/aa430c55-3c00-4b97-b21a-aa572a0f2373" height="50%" width="50%" alt="9"/><br />
 <br>
 
-On the Add subnet blade, in Subnet name, enter web, in Starting address, enter 10.10.0.0.
+On the Add subnet blade, in Subnet name, enter ***web***, in Starting address, enter ***10.10.0.0***.
+
+In Subnet size, select **/25**, and then select **Add**.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/9b7da0cd-748d-4bb3-a77b-c12abd46eb7a" height="50%" width="50%" alt="9"/><br />
+<br>
+
+On the Create virtual network blade, select **Review + create**, and then select **Create** to create the virtual network.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/f75b053a-1f8a-4b33-b502-73fa7feba6b3" height="50%" width="50%" alt="9"/><br />
+<br>
+
+⚠️You will use this virtual network for the web tier.
+
+<br>
+<br>
+
+<h2>2️⃣ Create a Virtual Network by using Azure Cloud Shell</h2>
+<br>
+ 
+In the Azure Portal, in the global controls, select the **Cloud Shell** icon.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="80%" width="80%" alt="9"/><br />
+<br>
+
+In Search the Marketplace, search for and select ***Virtual Network***, and then select **Create**.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/d5bede9d-9732-4c85-8d17-af609b9726fa" height="80%" width="80%" alt="9"/><br />
+<br>
+  
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+<br>
+
+On the Create virtual network blade, on the Basics page, in Resource group, select **corp-datalod42226775**, in Virtual network name, enter ***webVNET***, and then select **Next**.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/e1696f0a-06fd-4ae4-ae95-3f6c8bfd0507" height="50%" width="50%" alt="9"/><br />
+<br>
+
+On the Security page, select **Next**.
+
+On the IP addresses page, in IPv4 address space, select **Delete address space**, and then select **Add IPv4 address space**.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/c0524a5f-97cb-478a-bad8-b6fc9236fe7f" height="50%" width="50%" alt="9"/><br />
+<br>
+
+For IP address, enter ***10.10.0.0***, and confirm the subnet mask is **/16**.
+
+Select **Add a subnet** to open the Add subnet blade.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/aa430c55-3c00-4b97-b21a-aa572a0f2373" height="50%" width="50%" alt="9"/><br />
+<br>
+
+On the Add subnet blade, in Subnet name, enter ***web***, in Starting address, enter ***10.10.0.0***.
 
 In Subnet size, select **/25**, and then select **Add**.
 <p align="center">
@@ -72,6 +125,7 @@ On the Create virtual network blade, select **Review + create**, and then select
 
 
 <br>
+
 
 <h2>Key Objectives</h2>
 
