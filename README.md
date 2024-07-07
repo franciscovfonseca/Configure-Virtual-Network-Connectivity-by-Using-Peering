@@ -10,12 +10,14 @@
 
 <h2>Understanding the Scenario</h2>
 
-You are a Security Engineer for Hexelo, an organization that needs to configure secure bidirectional communication between Azure virtual networks.
+You are a Security Engineer for an organization that needs to configure secure **Bidirectional Communication** between **Azure Virtual Networks**.
 
-In this Lab, you will configure virtual network connectivity by using peering.
-1. First, you will create an Azure virtual network by using the Azure portal.
-2. Next, you will create an Azure virtual network by using Azure Cloud Shell.
-3. Finally, you will configure virtual network peering connections for secure bidirectional communication.
+In this Lab, you will configure **Virtual Network Connectivity** by using **Peering**.
+1. First, you will create an **Azure Virtual Network** by using the ***Azure Portal***.
+
+2. Next, you will create an **Azure Virtual Network** by using ***Azure Cloud Shell***.
+
+3. Finally, you will configure **Virtual Network Peering Connections** for secure **Bidirectional Communication**.
 
 <br>
 <br>
