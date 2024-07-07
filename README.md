@@ -164,27 +164,26 @@ Close the **Cloud Shell** window.
  
 On the Azure portal home page, in the Search bar, search for and select webVNET to display the ***webVNET*** virtual network page.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="80%" width="80%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/516d697e-5e68-4355-bc73-59c724b948ca" height="80%" width="80%" alt="9"/><br />
 <br>
 
-On the webVNET resource menu, in Settings, select **Peerings**, and then on the command bar, select **Add** to add a peering connection between the virtual networks.
+On the webVNET resource menu, in Settings, select **Peerings**.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/d5bede9d-9732-4c85-8d17-af609b9726fa" height="80%" width="80%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/d963ab25-143b-4ed2-973b-dab7bfe2c1ac" height="50%" width="50%" alt="9"/><br />
+<br>
+
+Then on the command bar, select **Add** to add a peering connection between the virtual networks.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/d3d74ed6-9eec-47ff-a1f3-98ed6d7043f9" height="50%" width="50%" alt="9"/><br />
 <br>
 
 On the Add peering page, in This virtual network, in Peering link name, enter ***webVNET-to-appVNET***.
-<p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
-<br>
 
 In Remote virtual network, in Peering link name, enter ***appVNET-to-webVNET***, and then in Virtual network, select **appVNET**.
-<p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
-<br>
 
 Select **Add**, and then wait for the peering connection to be created.
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/fc27650f-9247-49a3-ac51-64ef679bb683" height="50%" width="50%" alt="9"/><br />
 
 <br>
 <h2></h2>
@@ -198,7 +197,7 @@ On the webVNET resource menu, in Settings, select **Peerings**.
 On the Peerings page, in webVNET-to-appVNET, verify that the Peering status is **Connected**.
 
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/cf3a2150-bd07-4114-b14e-73d709c1f447" height="80%" width="80%" alt="9"/><br />
 
  <br>
 <h2></h2>
@@ -210,15 +209,19 @@ On the Peerings page, in webVNET-to-appVNET, verify that the Peering status is *
 On the webVNET - Peerings page, in webVNET-to-appVNET, in Peer, select **appVNET** to display the appVNET virtual network page.
 
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/1342638a-bf12-444a-bf09-7895103fb32e" height="80%" width="80%" alt="9"/><br />
 <br>
 
 On the appVNET resource menu, in Settings, select **Peerings**.
 
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/acf4fa7d-33c0-4f57-a5f1-3217d117028b" height="50%" width="50%" alt="9"/><br />
+<br>
+
 On the Peerings page, in appVNET-to-webVNET, verify that the Peering status is **Connected**.
 
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/60a8e0eb-b7ff-4b1d-a27a-bdd503f3d5a9" height="80%" width="80%" alt="9"/><br />
 <br>
 
 If the peering connection does not appear on the Peerings page, on the command bar, select **Refresh**.
