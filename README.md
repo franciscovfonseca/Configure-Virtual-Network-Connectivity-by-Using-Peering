@@ -5,7 +5,7 @@
 
 
 
-<h1> Configure Virtual Network Connectivity by Using Peering </h1>
+<h1> Configure Virtual Network Connectivity by using Peering </h1>
 <br>
 
 <h2>Understanding the Scenario</h2>
@@ -22,7 +22,7 @@ In this Lab, you will configure **Virtual Network Connectivity** by using **Peer
 <br>
 <br>
 
-<h2>1️⃣ Create a Virtual Network by using the Azure portal</h2>
+<h2>1️⃣ Create a Virtual Network by using the Azure Portal</h2>
 <br>
  
 On the Azure portal home page, select **Create a resource** to display the Azure Marketplace.
@@ -154,7 +154,74 @@ The following screenshot shows the virtual network name and subnet name property
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/dd402600-f67e-4a8b-8f94-c5d917f0d207" height="80%" width="80%" alt="9"/><br />
 <br>
 
+Close the **Cloud Shell** window.
 
+<br>
+<br>
+
+<h2>3️⃣ Configure Peering Connections between the Virtual Networks</h2>
+<br>
+ 
+On the Azure portal home page, in the Search bar, search for and select webVNET to display the ***webVNET*** virtual network page.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/5b9a2405-7215-4592-95f3-363c871949ef" height="80%" width="80%" alt="9"/><br />
+<br>
+
+On the webVNET resource menu, in Settings, select **Peerings**, and then on the command bar, select **Add** to add a peering connection between the virtual networks.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/d5bede9d-9732-4c85-8d17-af609b9726fa" height="80%" width="80%" alt="9"/><br />
+<br>
+
+On the Add peering page, in This virtual network, in Peering link name, enter ***webVNET-to-appVNET***.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+<br>
+
+In Remote virtual network, in Peering link name, enter appVNET-to-webVNET, and then in Virtual network, select appVNET.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+<br>
+
+Select Add, and then wait for the peering connection to be created.
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+
+<br>
+<h2></h2>
+<br>
+
+<h3>➡️ Verify that the webVNET-to-appVNET peering connection status is Connected.</h3>
+<br>
+
+On the webVNET resource menu, in Settings, select Peerings.
+
+On the Peerings page, in webVNET-to-appVNET, verify that the Peering status is Connected.
+
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+
+ <br>
+<h2></h2>
+<br>
+
+<h3>➡️ Verify that the appVNET-to-webVNET peering connection status is Connected.</h3>
+<br>
+
+On the webVNET - Peerings page, in webVNET-to-appVNET, in Peer, select appVNET to display the appVNET virtual network page.
+
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+<br>
+
+On the appVNET resource menu, in Settings, select Peerings.
+
+On the Peerings page, in appVNET-to-webVNET, verify that the Peering status is Connected.
+
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
+<br>
+
+If the peering connection does not appear on the Peerings page, on the command bar, select Refresh.
 
 
 <br>
