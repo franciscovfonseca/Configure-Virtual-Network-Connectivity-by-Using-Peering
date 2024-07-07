@@ -177,12 +177,12 @@ On the Add peering page, in This virtual network, in Peering link name, enter **
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
 <br>
 
-In Remote virtual network, in Peering link name, enter appVNET-to-webVNET, and then in Virtual network, select appVNET.
+In Remote virtual network, in Peering link name, enter ***appVNET-to-webVNET***, and then in Virtual network, select **appVNET**.
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
 <br>
 
-Select Add, and then wait for the peering connection to be created.
+Select **Add**, and then wait for the peering connection to be created.
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
 
@@ -190,12 +190,12 @@ Select Add, and then wait for the peering connection to be created.
 <h2></h2>
 <br>
 
-<h3>➡️ Verify that the webVNET-to-appVNET peering connection status is Connected.</h3>
+<h3>➡️ Verify that the webVNET-to-appVNET peering connection status is Connected</h3>
 <br>
 
-On the webVNET resource menu, in Settings, select Peerings.
+On the webVNET resource menu, in Settings, select **Peerings**.
 
-On the Peerings page, in webVNET-to-appVNET, verify that the Peering status is Connected.
+On the Peerings page, in webVNET-to-appVNET, verify that the Peering status is **Connected**.
 
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
@@ -204,24 +204,24 @@ On the Peerings page, in webVNET-to-appVNET, verify that the Peering status is C
 <h2></h2>
 <br>
 
-<h3>➡️ Verify that the appVNET-to-webVNET peering connection status is Connected.</h3>
+<h3>➡️ Verify that the appVNET-to-webVNET peering connection status is Connected</h3>
 <br>
 
-On the webVNET - Peerings page, in webVNET-to-appVNET, in Peer, select appVNET to display the appVNET virtual network page.
+On the webVNET - Peerings page, in webVNET-to-appVNET, in Peer, select **appVNET** to display the appVNET virtual network page.
 
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
 <br>
 
-On the appVNET resource menu, in Settings, select Peerings.
+On the appVNET resource menu, in Settings, select **Peerings**.
 
-On the Peerings page, in appVNET-to-webVNET, verify that the Peering status is Connected.
+On the Peerings page, in appVNET-to-webVNET, verify that the Peering status is **Connected**.
 
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
 <br>
 
-If the peering connection does not appear on the Peerings page, on the command bar, select Refresh.
+If the peering connection does not appear on the Peerings page, on the command bar, select **Refresh**.
 
 
 <br>
