@@ -226,6 +226,21 @@ On the Peerings page, in appVNET-to-webVNET, verify that the Peering status is *
 
 If the peering connection does not appear on the Peerings page, on the command bar, select **Refresh**.
 
+<br>
+<br>
+
+<h2>Summary</h2>
+<br>
+
+Congratulations, you have completed the **Configure Virtual Network Connectivity by using Peering** Lab.
+
+You have accomplished the following:
+
+- Created a **Virtual Network for a Web Server Tier** by using the **Azure Portal**.
+
+- Created a **Virtual Network for an Application Server Tier** by using **Azure CLI commands in Azure Cloud Shell**.
+
+- Configured **Peering Connections** between the **Virtual Networks**.
 
 <br>
 <br>
