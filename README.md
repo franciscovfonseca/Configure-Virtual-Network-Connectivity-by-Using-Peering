@@ -197,7 +197,7 @@ Select **Add**, and then wait for the peering connection to be created.
 
 On the webVNET resource menu, in Settings, select **Peerings**.
 
-On the Peerings page, in webVNET-to-appVNET, verify that the Peering status is **Connected**.
+On the Peerings page, in webVNET-to-appVNET, verify that the Peering status is **Connected** ✅
 
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/cf3a2150-bd07-4114-b14e-73d709c1f447" height="80%" width="80%" alt="9"/><br />
@@ -221,7 +221,7 @@ On the appVNET resource menu, in Settings, select **Peerings**.
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/acf4fa7d-33c0-4f57-a5f1-3217d117028b" height="50%" width="50%" alt="9"/><br />
 <br>
 
-On the Peerings page, in appVNET-to-webVNET, verify that the Peering status is **Connected**.
+On the Peerings page, in appVNET-to-webVNET, verify that the Peering status is **Connected** ✅
 
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/60a8e0eb-b7ff-4b1d-a27a-bdd503f3d5a9" height="80%" width="80%" alt="9"/><br />
