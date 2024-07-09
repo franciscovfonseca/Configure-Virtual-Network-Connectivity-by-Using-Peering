@@ -13,9 +13,14 @@
 
 <h2>Understanding the Scenario</h2>
 
+<br>
+
 You are a Security Engineer for an organization that needs to configure secure **Bidirectional Communication** between **Azure Virtual Networks**.
 
+<br>
+
 In this Lab, you will configure **Virtual Network Connectivity** by using **Peering**.
+
 1. First, you will create an **Azure Virtual Network** by using the ***Azure Portal***.
 
 2. Next, you will create an **Azure Virtual Network** by using ***Azure Cloud Shell***.
