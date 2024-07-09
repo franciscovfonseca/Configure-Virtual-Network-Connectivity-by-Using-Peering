@@ -42,7 +42,7 @@ In Search the Marketplace, search for and select ***Virtual Network***, and then
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/ca90a091-571d-49f1-beed-ddd25755c5c9" height="80%" width="80%" alt="9"/><br />
 <br>
 
-On the Create virtual network blade, on the Basics page, in Resource group, select **corp-datalod42226775**, in Virtual network name, enter ***webVNET***, and then select **Next**.
+On the Create virtual network blade, on the Basics page, in Resource group, select **corp-datalod42226775**, in Virtual network name, enter ***🆃 webVNET***, and then select **Next**.
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/e1696f0a-06fd-4ae4-ae95-3f6c8bfd0507" height="50%" width="50%" alt="9"/><br />
 <br>
@@ -54,14 +54,14 @@ On the IP addresses page, in IPv4 address space, select **Delete address space**
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/c0524a5f-97cb-478a-bad8-b6fc9236fe7f" height="50%" width="50%" alt="9"/><br />
 <br>
 
-For IP address, enter ***10.10.0.0***, and confirm the subnet mask is **/16**.
+For IP address, enter ***🆃 10.10.0.0***, and confirm the subnet mask is **/16**.
 
 Select **Add a subnet** to open the Add subnet blade.
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/aa430c55-3c00-4b97-b21a-aa572a0f2373" height="50%" width="50%" alt="9"/><br />
 <br>
 
-On the Add subnet blade, in Subnet name, enter ***web***, in Starting address, enter ***10.10.0.0***.
+On the Add subnet blade, in Subnet name, enter ***🆃 web***, in Starting address, enter ***🆃 10.10.0.0***.
 
 In Subnet size, select **/25**, and then select **Add**.
 <p align="center">
@@ -91,7 +91,7 @@ In the Welcome to Azure Cloud Shell dialog box, select **Bash**.
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/56b65cb6-9732-45a0-abbe-ab0bdd5557d0" height="80%" width="80%" alt="9"/><br />
 <br>
 
-In the Getting started window, select **Mount storage account**, in Storage account subscription, select the existing **hallenge Labs** option, and then select **Apply**.
+In the Getting started window, select **Mount storage account**, in Storage account subscription, select the existing **Challenge Labs** option, and then select **Apply**.
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/598c5ba9-9345-4c4a-9c3f-602c8ed9c580" height="80%" width="80%" alt="9"/><br />
 <br>
@@ -105,9 +105,9 @@ In the Create storage account window, in Resource group, select **corp-datalod42
 
 In Region, select **(US) East US**.
 
-In Storage account name, enter ***cs42226775***.
+In Storage account name, enter ***🆃 cs42226775***.
 
-In File share, enter ***cloudshell***, and then select **Create**.
+In File share, enter ***🆃 cloudshell***, and then select **Create**.
 <p align="center">
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/81b26701-7e3a-4e31-96d1-ac2481276ecc" height="80%" width="80%" alt="9"/><br />
 <br>
@@ -180,9 +180,9 @@ Then on the command bar, select **Add** to add a peering connection between the 
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/d3d74ed6-9eec-47ff-a1f3-98ed6d7043f9" height="50%" width="50%" alt="9"/><br />
 <br>
 
-On the Add peering page, in This virtual network, in Peering link name, enter ***webVNET-to-appVNET***.
+On the Add peering page, in This virtual network, in Peering link name, enter ***🆃 webVNET-to-appVNET***.
 
-In Remote virtual network, in Peering link name, enter ***appVNET-to-webVNET***, and then in Virtual network, select **appVNET**.
+In Remote virtual network, in Peering link name, enter ***🆃 appVNET-to-webVNET***, and then in Virtual network, select **appVNET**.
 
 Select **Add**, and then wait for the peering connection to be created.
 <p align="center">
