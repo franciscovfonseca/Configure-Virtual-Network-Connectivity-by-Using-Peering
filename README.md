@@ -241,7 +241,7 @@ On the Peerings page, in appVNET-to-webVNET, verify that the Peering status is *
 <img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/60a8e0eb-b7ff-4b1d-a27a-bdd503f3d5a9" height="80%" width="80%" alt="9"/><br />
 <br>
 
-If the peering connection does not appear on the Peerings page, on the command bar, select **Refresh**.
+⚠️ If the peering connection does not appear on the Peerings page, on the command bar, select **Refresh**.
 
 <br>
 <br>
