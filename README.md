@@ -247,10 +247,13 @@ On the Peerings page, in appVNET-to-webVNET, verify that the Peering status is *
 <br>
 
 <h2>Summary</h2>
+<br>
 
-Congratulations, you have completed the **Configure Virtual Network Connectivity by using Peering** Lab.
+✅ Congratulations, we have completed the **Configure Virtual Network Connectivity by using Peering Lab**.
 
-You have accomplished the following:
+<br>
+
+We have accomplished the following:
 
 - Created a **Virtual Network for a Web Server Tier** by using the **Azure Portal**.
 
