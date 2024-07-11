@@ -32,7 +32,7 @@ In this Lab, you will configure **Virtual Network Connectivity** by using **Peer
 <br>
 
 <p align="center">
-<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/0791d3de-4100-442a-bcdf-3effbfbcf452" height="80%" width="80%" alt="9"/><br />
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/0791d3de-4100-442a-bcdf-3effbfbcf452" height="60%" width="60%" alt="9"/><br />
 <br>
 
 <br>
