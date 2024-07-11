@@ -28,6 +28,15 @@ In this Lab, you will configure **Virtual Network Connectivity** by using **Peer
 3. Finally, you will configure **Virtual Network Peering Connections** for secure **Bidirectional Communication**.
 
 <br>
+
+<br>
+
+<p align="center">
+<img src="https://github.com/franciscovfonseca/Configure-Virtual-Network-Connectivity-by-Using-Peering/assets/172988970/0791d3de-4100-442a-bcdf-3effbfbcf452" height="80%" width="80%" alt="9"/><br />
+<br>
+
+<br>
+
 <br>
 
 <h2>1️⃣ Create a Virtual Network by using the Azure Portal</h2>
