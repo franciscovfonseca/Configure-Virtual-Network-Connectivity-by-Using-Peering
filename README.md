@@ -128,6 +128,7 @@ In File share, enter ***🆃 cloudshell***, and then select **Create**.
 
 The Cloud Shell should take approximately 1–2 minutes to initialize.
 
+<br>
 
 ✅ You will use this **Virtual Network** for the **Application Tier**.
 
